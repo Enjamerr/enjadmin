@@ -72,9 +72,13 @@ Clicking `Adjuntar archivo (opcional)`—which will be a button—must trigger a
 
 - The `Enviar` button in the new communications component needs to be blue, just like the button for `Registrar apartamento` in the apartments interface.
 
+
 - In the table component, the filter section should be omitted, as it will not be part of the interface:
 [Table component](./table_component.jpg)
 - Remember to properly implement column rendering using the `render` function, based on the column's value (Email, WhatsApp).
+- Remember that test data found in each component/module is used to develop the table.
+
 
 - In the card component, neither the percentage nor the date should be rendered:
 [Cards component](./cards_component.jpg)
+-Remember that test data found in each component/module is used to develop the cards.
