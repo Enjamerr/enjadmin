@@ -29,11 +29,6 @@ function Layout(){
     )
 }
 
-function SectionPlaceholder({ title }) {
-    return <h1 style={{ padding: '1.5rem' }}>{title}</h1>
-}
-
-
 function App() {
     return (
         <BrowserRouter>
@@ -47,7 +42,6 @@ function App() {
                     <Route path="expenses" element={<Expenses />} />
                     <Route path="reports" element={<Reports />} />
                     <Route path="communications" element={<Comunications />} />
-                    <Route path="users" element={<SectionPlaceholder title="Usuarios y roles" />} />
                 </Route>
             </Routes>
         </BrowserRouter>

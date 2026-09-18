@@ -6,7 +6,6 @@ import {
   ShoppingBag,
   BarChart3,
   MessageCircle,
-  Users,
 } from 'lucide-react'
 
 export const navItems = [
@@ -16,6 +15,5 @@ export const navItems = [
   { to: '/wallet', label: 'Cartera', icon: Wallet },
   { to: '/expenses', label: 'Gastos', icon: ShoppingBag },
   { to: '/reports', label: 'Reportes', icon: BarChart3 },
-  { to: '/communications', label: 'Comunicaciones', icon: MessageCircle },
-  { to: '/users', label: 'Usuarios y roles', icon: Users },
+  { to: '/communications', label: 'Comunicaciones', icon: MessageCircle }
 ]
